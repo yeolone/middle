@@ -1,0 +1,263 @@
+<!DOCTYPE html> <!--22161122 최지원-->
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>VIVID KITCHEN : 비비드키친</title>
+    <style media="screen">
+      * {
+        margin : 0;
+        padding : 0;
+        box-sizing : border-box;
+      }
+      #container {
+        margin : 0 auto;
+        width : 1200px;
+      }
+      header {
+        width : 100%;
+        height : 50px;
+        margin : 10px 10px 50px 0;
+      }
+      #logo{
+        float : left;
+        width : 20%;
+        height : 70px;
+
+      }
+      #logo img {
+        height : 100%;
+        margin : 10px;
+      }
+      #nav{
+        float : right;
+        width : 80%;
+        height : 80px;
+        padding-top :40px;
+      }
+      #topmenu {
+        height : 30px;
+        font-size : 16px;
+        font-weight: bold;
+      }
+      #topmenu > li {
+        float : right;
+      }
+      #topmenu > li > a {
+        display : block;
+        color : #c00049;
+        padding : 10px 50px 10px 50px;
+        text-decoration : none;
+        text-align: center;
+      }
+      #topmenu > li > a:hover {
+        color : #c00049;
+        border-bottom: solid 2px #c00049;
+      }
+      ul {
+        list-style-type : none;
+      }
+      #title {
+        float : left;
+        width : 100%;
+        height : 100px;
+        border-top : solid 2px  #c00049;
+        text-align : center;
+        padding-top : 30px;
+        color : #9e0000;
+      }
+      #contents {
+        float : left;
+        width : 100%;
+        height :1300px;
+        position : relative;
+      }
+      #section1 {
+        float : left;
+        height : 200px;
+        width : 100%;
+        background-image: url(./img/sourceimg1.png);
+      }
+      #section1 #text1 {
+        height : 100px;
+        width : 100%;
+        float : left;
+        text-align: center;
+        padding : 60px 60px 40px 50px;
+      }
+      #text1 h2{
+        border-bottom: solid 2px white;
+        text-align : center;
+        margin-left : 275px;
+        padding-bottom: 10px;
+        color : white;
+        width : 50%;
+      }
+      #text1 p{
+        color : white;
+        text-align : center;
+      }
+      #section1 #img1{
+        height : 550px;
+        width : 40%;
+        float : left;
+        text-align: right;
+      }
+      #section2 {
+        float : left;
+      }
+      #section2 .sourceimg {
+
+        height : 300px;
+        float : left;
+        width : 285px;
+        margin : 25px 7.5px 0 7.5px;
+      }
+
+      .button {
+        width : 150px;
+        color : white;
+        background-color: #d3d3d3;
+        height: 30px;
+        margin: 10px 75px 10px 75px;
+        text-align: center;
+        line-height: 30px;
+        border-radius: 10px;
+        font-size: 12px;
+        font-weight: bold;
+        display : block;
+      }
+      .button:hover{
+        background-color : #c00049;
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+      #information {
+        width: 100%;
+        height: 100px;
+        float : left;
+        margin-bottom: 60px;
+      }
+      .infor {
+        width : 300px;
+        float: left;
+        height: 100px;
+        text-align: center;
+      }
+      .infor h3 {
+        padding-top : 10px;
+      }
+      h3 {
+        text-align: center;
+        padding-top: 30px;
+      }
+      footer {
+        width : 100%;
+        height: 70px;
+        padding-top:25px;
+        background-color: #2c2a29;
+        float : left;
+        text-align: center;
+        font-size : 12px;
+        color : white;
+      }
+
+    </style>
+
+  </head>
+  <body>
+    <div id="container">
+      <header>
+          <div id="logo">
+            <a href="index.html">
+            <img src="./img/logo.png" alt="">
+            </a>
+          </div>
+          <div id="nav">
+            <ul id="topmenu">
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="food.html">식사류</a></li>
+              <li><a href="source.html">소스류</a></li>
+              <li><a href="intro2.html">브랜드소개</a></li>
+            </ul>
+          </div>
+      </header>
+      <div id="contents">
+        <div id="section1">
+          <div id="text1">
+            <h2>소스</h2> <br>
+            <p style="font-size:12px;">비비드키친의 다양한 소스를 소개합니다.</p>
+          </div>
+        </div>
+        <div id="section2">
+          <h3> 저칼로리</h3><br>
+          <p style="font-size : 12px; text-align : center;">설탕, 과당, 물엿 등 칼로리가 있는 당류를 제외하고 <br> 알룰로스를 활용하여 당 함유량과 칼로리를 낮춘 저칼로리 소스에요.</p>
+          <div id="imgsource">
+          <article class="sourceimg"> <img src="./img/source1.png" alt="바베큐소스"> </article>
+          <article class="sourceimg"><img src="./img/source2.png"  alt="케첩"></article>
+          <article class="sourceimg"><img src="./img/source3.png"alt="머스타드소스"></article>
+          <article class="sourceimg"><img src="./img/source5.png" alt="스위트칠리"></article>
+        </div>
+        <div id="information">
+          <div class="infor">
+            <h3>저칼로리 바베큐 소스</h3>
+            <p style="color:#181818; font-size:12px;">가볍게 즐기는 스모크 풍미</p>
+              <a href="https://www.dongwonmall.com/product/detail.do?productId=001395114&cate_id=&keyword=VIVIDKITCHEN"><div class="button">구매</div></a>
+          </div>
+          <div class="infor">
+            <h3>저칼로리 토마토 케첩</h3>
+            <p style="color:#181818; font-size:12px;">가볍게 즐기는 새콤달콤 케첩</p>
+            <a href="https://www.dongwonmall.com/product/detail.do?productId=001395112&cate_id=&keyword=VIVIDKITCHEN"><div class="button">구매</div></a>
+          </div>
+          <div class="infor">
+            <h3>저칼로리 머스타드 소스</h3>
+            <p style="color:#181818; font-size:12px;">풍성한 맛과 식감을 느낄 수 있는 머스타드</p>
+            <a href="https://www.dongwonmall.com/product/detail.do?productId=001379234&cate_id=&keyword=VIVIDKITCHEN"><div class="button">구매</div></a>
+          </div>
+          <div class="infor">
+            <h3>저칼로리 스위트칠리 소스</h3>
+            <p style="color:#181818; font-size:12px;">부담없는 새콤달콤한 맛.</p>
+            <a href="https://www.dongwonmall.com/product/detail.do?productId=001379236&cate_id=&keyword=VIVIDKITCHEN"><div class="button">구매</div></a>
+          </div>
+        </div>
+        <br>
+        <hr>
+        <div id="section2">
+          <h3> 디핑소스</h3><br>
+          <p style="font-size : 12px; text-align : center;">전문가들이 노하우를 담아 만든 집에서도 간편하게 즐길 수 있는 디핑소스에요.</p>
+          <div id="imgsource">
+          <article class="sourceimg"> <img src="./img/honeymus.png" alt="머스타드"> </article>
+          <article class="sourceimg"><img src="./img/garlic.png"  alt="갈릭"></article>
+          <article class="sourceimg"><img src="./img/hotso.png"alt="양념치킨"></article>
+          <article class="sourceimg"><img src="./img/sweetch.png" alt="스위트칠리"></article>
+        </div>
+        <div id="information">
+          <div class="infor">
+            <h3>허니머스타드소스</h3>
+            <p style="color:#181818; font-size:12px;">알싸하고 달콤한 맛</p>
+            <a href="https://www.dongwonmall.com/product/detail.do?productId=001379193&cate_id=&keyword=VIVIDKITCHEN"><div class="button">구매</div></a>
+          </div>
+          <div class="infor">
+            <h3>갈릭디핑소스</h3>
+            <p style="color:#181818; font-size:12px;">진하고 풍부한 마늘향 가득</p>
+            <a href="https://www.dongwonmall.com/product/detail.do?productId=001395112&cate_id=&keyword=VIVIDKITCHEN"><div class="button">구매</div></a>
+          </div>
+          <div class="infor">
+            <h3>양념치킨소스</h3>
+            <p style="color:#181818; font-size:12px;">자꾸만 생각나는 중독성 있는 그 맛</p>
+            <a href="https://www.dongwonmall.com/product/detail.do?productId=001379194&cate_id=&keyword=VIVIDKITCHEN"><div class="button">구매</div></a>
+          </div>
+          <div class="infor">
+            <h3>스위트칠리디핑소스</h3>
+            <p style="color:#181818; font-size:12px;">달콤함과 새콤함의 완벽한 조화</p>
+            <a href="https://www.dongwonmall.com/product/detail.do?productId=001379196&cate_id=&keyword=VIVIDKITCHEN"><div class="button">구매</div></a>
+          </div>
+        </div>
+        </div>
+    <footer>
+      (주)동원홈푸드 충북 충주시 대소원면 메가폴리스2 27
+    </footer>
+  </body>
+</html>
